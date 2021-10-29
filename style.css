@@ -32,8 +32,13 @@ header{
     margin-bottom: 10px;
 }
 
-/* elementi float */
+.bottom{
+    background-color: purple;
+    height: 30px;
+    margin-top: 5px;
+}
 
+/* elementi inerenti al float */
 .laterale-sx{
     float:left; 
     background-color: rgb(152, 209, 255); 
