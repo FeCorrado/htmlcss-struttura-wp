@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: palevioletred;
+    height: 100px;
+}
+
+.main-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.big-box{
+    background-color: rgba(236, 236, 12, 0.904);
+    height: 500px;
+    margin-top: 20px;
+}
