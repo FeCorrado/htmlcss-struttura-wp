@@ -32,6 +32,8 @@ header{
     margin-bottom: 10px;
 }
 
+/* elementi float */
+
 .laterale-sx{
     float:left; 
     background-color: rgb(152, 209, 255); 
@@ -44,7 +46,7 @@ header{
     background-color: rgb(152, 209, 255); ;
     height: 330px;
     width: calc(50% - 20px) ;
-    margin: auto;
+    display: inline-table;
 }
 
 .laterale-dx{
@@ -54,3 +56,4 @@ header{
     width: 25% ;
     margin-left: 10px;
 }
+
