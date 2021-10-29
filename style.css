@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
     background-color: palevioletred;
-    height: 100px;
+    height: 80px;
 }
 
 .main-container{
@@ -15,6 +16,41 @@ header{
 
 .big-box{
     background-color: rgba(236, 236, 12, 0.904);
-    height: 500px;
+    height: 400px;
     margin-top: 20px;
+}
+
+.big-box2{
+   background-color: rgb(0, 110, 255);
+    height: 400px;
+    margin-top: 20px; 
+}
+
+.up{
+    background-color: rgb(152, 209, 255);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.laterale-sx{
+    float:left; 
+    background-color: rgb(152, 209, 255); 
+    height: 330px;
+    width: 25% ;
+    margin-right: 10px;
+}
+
+.centrale{
+    background-color: rgb(152, 209, 255); ;
+    height: 330px;
+    width: calc(50% - 20px) ;
+    margin: auto;
+}
+
+.laterale-dx{
+    float:right; 
+    background-color: rgb(152, 209, 255); 
+    height: 330px;
+    width: 25% ;
+    margin-left: 10px;
 }
